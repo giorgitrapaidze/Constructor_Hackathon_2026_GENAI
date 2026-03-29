@@ -1,0 +1,5 @@
+__pycache__/
+*.npy
+*.mcap
+*.mp4
+.DS_Store
