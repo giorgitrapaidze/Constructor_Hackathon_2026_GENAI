@@ -4,6 +4,10 @@ This is a repo for submission of Constructor University Hackathon 2026 GENAI Tra
 The help_function.py contains the function that used in the main script point_parse.py
 Ensure hackathon_good_lap.mcap and hackathon_fast_laps.mcap are placed in the root directory. Then simply execute: python3 point_parse.py
 
+The green string in the video is the trajectory of a professional driver (coach) projected onto absolute spatial coordinate system.
+
+The red dots with white centers represent the places where the student made a conservative mistake in the previous lap. 
+
 ## Hightlight 1: Spatial Anchoring over Time-series
 We used KD-Tree to achieve 3D absolute space mapping instead of traditional timestamp alignment, because the coach and the student are not in the same place at the same timestamp.
 
