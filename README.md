@@ -5,7 +5,7 @@
 ---
 
 ## Yas Marina Circuit - Spatial Anchoring
-![Yas Marina Circuit - Spatial Anchoring](Yas Marina Circuit - Spatial Anchoring.png)
+![Yas Marina Circuit - Spatial Anchoring](Yas_Marina_Spatial_Anchoring.png)
 
 ## Video demo
 ![Video](Hachathon_github.gif)
