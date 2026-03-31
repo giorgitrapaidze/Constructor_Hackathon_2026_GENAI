@@ -8,7 +8,7 @@
 ![Yas Marina Circuit - Spatial Anchoring](Yas_Marina_Spatial_Anchoring.png)
 
 ## Video demo
-![Video](Hachathon_github.gif)
+![Video](Hackathon_github.gif)
 
 ## Authors
 Boburjon Radjapov<br />
