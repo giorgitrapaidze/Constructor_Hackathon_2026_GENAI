@@ -33,24 +33,23 @@ Giorgi Trapaidze<br />
 
 ## Quick start
 
-```bash
-pip install -r requirements.txt
-```
-
-### Offline coaching analysis (`point_parse.py`)
-
-Ensure `hackathon_good_lap.mcap` and `hackathon_fast_laps.mcap` are placed in the root directory, then run:
-
-```bash
-python3 point_parse.py
-```
-
-### Live Foxglove server (`server.py`)
+Ensure `hackathon_good_lap.mcap` and `hackathon_fast_laps.mcap` are placed in the root directory, then:
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+**Step 1 — Run offline coaching analysis first:**
+
+```bash
+python3 point_parse.py
+```
+
+**Step 2 — Then start the live Foxglove server:**
+
+```bash
 python3 server.py
 ```
 
@@ -172,10 +171,6 @@ Place these in the project root (not included in the repo due to size):
 
 - Python 3.10+
 - Foxglove Studio (desktop app or browser at [foxglove.dev](https://foxglove.dev))
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
